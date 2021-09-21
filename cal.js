@@ -4,7 +4,7 @@ $(document).ready(function(){
     $("#tot").click(function(){
         let s1=parseInt(document.getElementById("wt").value);
         let s2=parseInt(document.getElementById("se").value);
-        let s3=parseInt(document.getElementById("cn").value;)
+        let s3=parseInt(document.getElementById("cn").value);
         let s4=parseInt(document.getElementById("ad").value);
         let s5=parseInt(document.getElementById("ce").value);
         if(s1>=0 && s1<=100 && s2>=0 && s2<=100 && s3>=0 && s3<=100 && s4>=0 && s4<=100 && s5>=0 && s5<=100){
